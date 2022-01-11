@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+:root{
+    --primary-backcolor: rgb(61, 60, 60);
+    --text-color: rgba(255, 0, 0, 0.938);
+}
+
+nav{
+    background-color: var(--primary-backcolor);
+    color: var(--text-color);
+    text-align: center;
+}
+
+nav .array-inputs {
+    bottom: 0%;
+    left: 0%;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: var(--primary-backcolor);
+    place-content: center;
+    padding-top: 20px;
+}
+
+.array-inputs *{
+    display: inline-block;
+}
+
+nav .array-inputs #a_size {
+    padding-right: 20px;
+    margin-right: 50px;
+}
+
+nav .array-inputs #a_speed {
+    padding-right: 20px;
+}
+
+nav .array-inputs #a_generate {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0% 0% 0%;
+    padding-left: 10%;
+}
+
+nav .array-inputs #a_generate:hover {
+    color: var(--text-color);
+    transition: color 0.5s ease-in-out;
+}
+
+nav .header_right{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+nav .header_right .nav heading {
+    display: inline-block;
+    font-size: xxx-large;
+    padding: 1% 0%;
+}
+
+nav .header_right .algos {
+    width: 80%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (16.66667%);
+    grid-template-columns: repeat(0, 166667%);
+    place-content: center;
+}
+
+nav .header_right .algos button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 2% 0%;
+    font-size: x-large;
+}
+
+nav .header_right .algos button:hover {
+    background-color: var(--text-color);
+    transition: background-color 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+    cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+    background-color: white;
+    color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+    background-color: var(--text-color);
+    cursor: pointer;
+}
+
+section {
+    background-color: rgb(189, 181, 181);
+    /* background: linear-gradient(12deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #e81d7c, #dd00f3, #dd00f3); */
+    background-size: 1800% 1800%;
+
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+        animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
+}
+
+@-moz-keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}    
+}
+
+@-o-keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
+}
+
+@keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
+}
+
+section #array_container {
+    padding: 5% 0% 0% 10%;
+    align-items: baseline;
+    place-content: center;
+    display: flex;
+    width: 80%;
+    height: 26.5vw;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
